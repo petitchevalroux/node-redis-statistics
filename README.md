@@ -13,3 +13,9 @@ Run tests. Tests are located in tests/ directory and run using [mocha](https://g
 ```
 make tests
 ```
+
+### Run beautifier
+Beautify javascript files using [js-beautify](https://github.com/beautify-web/js-beautify).
+```
+make beautify
+```
