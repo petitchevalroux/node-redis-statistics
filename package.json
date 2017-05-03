@@ -1,26 +1,33 @@
 {
-  "name": "node-project",
-  "version": "1.0.0",
-  "description": "Empty node project",
+  "name": "redis-statistics",
+  "version": "0.0.1",
+  "description": "Redis statistics utility library",
   "scripts": {
     "test": "make tests"
   },
+  "main": "src/main.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/petitchevalroux/node-project.git"
+    "url": "git+ssh://github.com/petitchevalroux/node-redis-statistics.git"
   },
   "author": "Patrick Poulain",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/petitchevalroux/node-project/issues"
+    "url": "https://github.com/petitchevalroux/node-redis-statistics/issues"
   },
-  "homepage": "https://github.com/petitchevalroux/node-project#readme",
+  "homepage": "https://github.com/petitchevalroux/node-redis-statistics#readme",
   "devDependencies": {
     "eslint": "^3.3.1",
     "eslint-plugin-promise": "^2.0.1",
     "istanbul": "^0.4.4",
     "js-beautify": "^1.6.3",
     "mocha": "^3.0.2",
+    "redis-mock": "^0.16.0",
     "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "@petitchevalroux/error": "^1.0.1",
+    "bluebird": "^3.5.0",
+    "redis": "^2.7.1"
   }
 }
